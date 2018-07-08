@@ -14,6 +14,7 @@ extern void Initialize();
 // A structure to store BUFER and semaphores for synchronization
 typedef struct
 {
+    int a;
     int j,loc;
     int account,pin;
     int acc[BUFFER_SIZE],pins[BUFFER_SIZE],money[BUFFER_SIZE];
